@@ -6,4 +6,8 @@ class Anagram
     @matching_words = []
   end
 
+  def match
+
+  end
+
 end
