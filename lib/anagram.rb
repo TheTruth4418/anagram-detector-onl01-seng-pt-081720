@@ -5,5 +5,5 @@ class Anagram
     @word = word
     @matching_words = []
   end
-  
+
 end
