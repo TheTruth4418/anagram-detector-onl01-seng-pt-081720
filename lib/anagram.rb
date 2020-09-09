@@ -6,8 +6,7 @@ class Anagram
     @matching_words = []
   end
 
-  def match(str)
-    arr = str.split(" ")
+  def match(arr)
     arr.each do |string|
       binding.pry
     end
