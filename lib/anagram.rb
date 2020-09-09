@@ -8,8 +8,10 @@ class Anagram
   end
 
   def match(arr)
+    word2 = word.split("").sort
     arr.each do |string|
-      binding.pry
+      str2 = string.split("").sort
+      @matching_words << string if str2 == word2
     end
   end
 
