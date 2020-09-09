@@ -13,6 +13,7 @@ class Anagram
       str2 = string.split("").sort
       @matching_words << string if str2 == word2
     end
+    @matching_words
   end
 
 end
